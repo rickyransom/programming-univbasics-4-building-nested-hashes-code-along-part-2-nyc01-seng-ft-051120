@@ -31,6 +31,11 @@ def update_status
 end
 
 def add_characters
+  epic_tragedy
+  pic_tragedy[:additional_characters] = [
+ { name: "Prince Escalus" },
+ { name: "Apothecary" }
+]
    epic_tragedy = {
       :montague => {
          :patriarch => {name: "Lord Montague", age: "53"},
@@ -66,9 +71,5 @@ def add_characters
 
 
    # After your code, the following line will return the altered hash
-   epic_tragedy
-   pic_tragedy[:additional_characters] = [
-  { name: "Prince Escalus" },
-  { name: "Apothecary" }
-]
+
 end
