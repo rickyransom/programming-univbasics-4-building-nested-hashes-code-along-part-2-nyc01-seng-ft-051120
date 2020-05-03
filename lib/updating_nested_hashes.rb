@@ -67,4 +67,8 @@ def add_characters
 
    # After your code, the following line will return the altered hash
    epic_tragedy
+   pic_tragedy[:additional_characters] = [
+  { name: "Prince Escalus" },
+  { name: "Apothecary" }
+]
 end
